@@ -1,0 +1,59 @@
+.App {
+  max-width: 1190px;
+  margin: 12px auto;
+  border: 1px solid #d0d0d0;
+  padding: 9px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 1189px) {
+  .App {
+    border-radius: 0;
+    margin: 0 auto;
+    border: 0;
+  }
+}
+
+.App header {
+  background-color: #ededed;
+  padding: 12px;
+  border-radius: 6px;
+}
+.App header h2 {
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.App .form-add-item {
+  background-color: #fcfcfc;
+  border: 1px solid #f6f6f6;
+  padding: 9px 12px;
+  border-radius: 6px;
+}
+
+.App .lista-compras-container {
+  padding: 21px 0;
+  max-height: 310px;
+  overflow: auto;
+}
+
+.App .lista-items {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 18px;
+}
+.App .lista-items li:nth-child(2n) {
+  background-color: #fcfcfc;
+}
+.App .lista-items li + li {
+  margin-top: 7px;
+}
+
+.App .lista-item {
+  background-color: #d0d0d0;
+}
+
+.App .lista-item:hover {
+  background-color: #7c7c7c;
+}
